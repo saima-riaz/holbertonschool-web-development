@@ -1,5 +1,5 @@
 #  HTML, advanced
-![alt text](./readme%20image/htmlicon.jpeg)
+![alt text](./htmlicon.jpeg)
 
 ## Project Description: HTML Advanced - Building the Skeleton
 
