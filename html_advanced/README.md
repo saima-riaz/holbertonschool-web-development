@@ -1,5 +1,6 @@
 #  HTML, advanced
-![alt text](html_advanced/image/htmlicon.jpeg)
+![html](https://github.com/user-attachments/assets/14203162-98cc-4d5d-a99d-0cb00d4928f7)
+
 
 ## Project Description: HTML Advanced - Building the Skeleton
 
