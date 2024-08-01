@@ -1,9 +1,6 @@
 # Holbertonschool-web-development
 ![project picture](https://github.com/user-attachments/assets/99285d15-e6fa-4f2e-83fb-07d09724693b)
-<<<<<<< HEAD
-=======
 
->>>>>>> 8672d50f37563854f5055ed7ea7a4a4990157a2e
 Projects in this Repository 
 # HTML Advanced
 
@@ -26,5 +23,7 @@ Your code should be W3C compliant and validate with W3C-Validator.
 
 # Final view 
 ....
+
+
 
 
