@@ -1,0 +1,109 @@
+* {
+    font-family: "Open Sans", sans-serif;
+    text-decoration: none;
+    box-sizing: border-box;
+    margin: 0; /*removed space betweet every page (connect all page)*/
+    padding: 0;
+}
+
+body { /* background image */
+    background-image: url(images/background.png);
+    background-repeat: no-repeat;
+    max-height: 100vh;
+    background-size: cover;
+    background-position: start;
+    
+}
+
+header { /* logo part */
+    text-transform: uppercase;
+    display: flex;
+    padding: 20px;
+    margin: 30px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header a { /* link elements */
+    color: white;
+    padding: 20px;
+}
+
+section h1 {
+    color: white;
+    font-size: 100px;
+    padding: 25px; 
+    margin: 20px 0; 
+    text-align: center;
+}
+
+.sub-title {  /* FOR text SMILE GRIN LAUGH */
+    color: white;
+    word-spacing: 60px;
+    text-align: center;
+    margin-top: 20px; 
+    padding-bottom: 40px; 
+    padding-left: 40px;
+}
+
+.register { /* button REGISTER */
+    background-color: #c271ff;
+    color: white;
+    padding: 10px 20px;
+    margin: 20px auto;
+    border: 0;
+    border-radius: 20px;
+    display: block;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.3); /* Add shadow around button*/
+}
+
+h2 span { /* for Learn from the pros */
+    color: #c271ff;
+}
+
+h2 {
+    color: white;
+    text-align: center;
+    margin-bottom: 30px;
+    padding-top: 70px;
+}
+
+.block-container {       /*for block*/
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    padding: 30px; /* Adds padding around the container */
+    margin: 50px;
+    margin-bottom: 100px; /* Example of specific bottom margin */
+}
+
+.block {
+    color: white;
+    text-align: center;
+    margin: 30px; /* Adjusted margin */
+}
+
+.block p {
+    font-style: italic;
+}
+
+.quote-container {  /*quote*/
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #c271ff;
+    align-items: center;
+    padding: 80px 0;
+    color: white;
+    
+}
+.bold-text { /*name of author*/
+    font-weight: bold;
+    margin: 20px 0 10px 0;
+}
+
+.itlic-text{
+    font-style: italic;
+    width: 160px;
+    float: left;
+    margin-right: 30px;
+}
