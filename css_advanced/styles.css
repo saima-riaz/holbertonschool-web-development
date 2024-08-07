@@ -191,5 +191,66 @@ h2 {
 
 /* Membership section */
 
+.membership-container {
+    text-align: center;
+    background-color: #071629;
+    color: white;
+    padding: 20px 0;
+}
 
+.membership-container h1 {
+    font-weight: 300;
+    font-size: 32px;
+}
 
+.membership-container h1 span {
+    font-weight: bold;
+    color: #c271ff;
+    font-size: 32px;
+}
+
+.membership-container > div {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-top: 30px;
+    gap: 20px
+    
+}
+
+.membership-container > div > div {
+    max-width: 257px;
+    margin: 0 auto;
+    text-align: center;
+     
+}
+
+.membership-container > div > div img {
+    display: block;
+    margin: 0 auto 5px;
+}
+
+.membership-container > div > div h2 {
+    margin: 10px 0;
+    font-size: 18px;
+    color: #FFFFFF; /* White text color for h2 */
+    
+}
+
+.membership-container > div > div p {
+    font-size: 14px;
+    font-weight: 300;
+    color: #FFFFFF; /* White text color for p */
+    margin: 10px 0;
+}
+
+.membership-container button {
+    background-color: #c271ff;
+    color: white;
+    padding: 10px 20px;
+    margin: 50px auto;
+    border: 0;
+    border-radius: 20px;
+    display: block;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.3); 
+}
