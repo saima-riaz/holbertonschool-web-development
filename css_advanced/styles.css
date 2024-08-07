@@ -68,7 +68,7 @@ h2 {
     padding-top: 70px;
 }
 
-.block-container {       /*for block*/
+.block-container {       /*for block image */
     display: flex;
     justify-content: space-around;
     align-items: flex-start;
@@ -99,11 +99,86 @@ h2 {
 .bold-text { /*name of author*/
     font-weight: bold;
     margin: 20px 0 10px 0;
+    
 }
 
-.itlic-text{
+.itlic-text {
     font-style: italic;
     width: 160px;
     float: left;
     margin-right: 30px;
+}
+
+.video-text h1{  /* for most popular tutorials text*/
+    color: black;
+    font-size: 32px;
+    font-weight: 300;
+    padding: 70px;
+}
+.video-text span {
+    color: #c271ff;
+    font-weight: 600;
+
+}
+
+/*videos sections*/
+.vd-block {
+    display: flex;
+    justify-content: center;
+    text-align: left;
+    gap: 30px;
+    
+}
+
+.vd {
+    max-width: 255px;
+}
+
+.vd h2 {
+    font-size: 16px;
+    margin: 15px 0;
+    padding: 0px;
+    color: black;
+    display: flex;
+}
+
+.vd p {
+    color: #07162980;
+    font-size: 14px;
+    margin-bottom: 15px;
+}
+
+.vd-author {
+    display: flex;
+    align-items: center;
+}
+
+.vd-author img {
+    width: 30px;
+}
+
+.vd-author h3 {
+    font-size: 14px;
+    margin-left: 10px;
+    color: #c271ff;
+}
+
+.vd-rat {
+    display: flex;
+    margin: 15px 0;
+    justify-content: space-between;
+}
+
+.vd-rat div img {
+    width: 15px;
+    height: 15px;
+    margin-right: 8px;
+}
+
+.vd-rat div {
+    display: flex;
+}
+
+.vd-rat p {
+    color: #c271ff;
 }
