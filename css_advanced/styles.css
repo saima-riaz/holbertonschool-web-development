@@ -2,20 +2,19 @@
     font-family: "Open Sans", sans-serif;
     text-decoration: none;
     box-sizing: border-box;
-    margin: 0; /*removed space betweet every page (connect all page)*/
+    margin: 0; /* Removed space between every page (connect all page) */
     padding: 0;
 }
 
-body { /* background image */
+body { /* Background image */
     background-image: url(images/background.png);
     background-repeat: no-repeat;
     max-height: 100vh;
     background-size: cover;
     background-position: start;
-    
 }
 
-header { /* logo part */
+header { /* Logo part */
     text-transform: uppercase;
     display: flex;
     padding: 20px;
@@ -24,7 +23,7 @@ header { /* logo part */
     align-items: center;
 }
 
-header a { /* link elements */
+header a { /* Link elements */
     color: white;
     padding: 20px;
 }
@@ -32,21 +31,21 @@ header a { /* link elements */
 section h1 {
     color: white;
     font-size: 100px;
-    padding: 25px; 
-    margin: 20px 0; 
+    padding: 25px;
+    margin: 20px 0;
     text-align: center;
 }
 
-.sub-title {  /* FOR text SMILE GRIN LAUGH */
+.sub-title { /* For text SMILE GRIN LAUGH */
     color: white;
     word-spacing: 60px;
     text-align: center;
-    margin-top: 20px; 
-    padding-bottom: 40px; 
+    margin-top: 20px;
+    padding-bottom: 40px;
     padding-left: 40px;
 }
 
-.register { /* button REGISTER */
+.register { /* Button REGISTER */
     background-color: #c271ff;
     color: white;
     padding: 10px 20px;
@@ -54,10 +53,10 @@ section h1 {
     border: 0;
     border-radius: 20px;
     display: block;
-    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.3); /* Add shadow around button*/
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.3); /* Add shadow around button */
 }
 
-h2 span { /* for Learn from the pros */
+h2 span { /* For Learn from the pros */
     color: #c271ff;
 }
 
@@ -68,7 +67,7 @@ h2 {
     padding-top: 70px;
 }
 
-.block-container {       /*for block image */
+.block-container { /* For block image */
     display: flex;
     justify-content: space-around;
     align-items: flex-start;
@@ -87,19 +86,18 @@ h2 {
     font-style: italic;
 }
 
-.quote-container {  /*quote*/
+.quote-container { /* Quote section */
     display: flex;
     justify-content: space-evenly;
     background-color: #c271ff;
     align-items: center;
     padding: 80px 0;
     color: white;
-    
 }
-.bold-text { /*name of author*/
+
+.bold-text { /* Name of author */
     font-weight: bold;
     margin: 20px 0 10px 0;
-    
 }
 
 .itlic-text {
@@ -109,29 +107,38 @@ h2 {
     margin-right: 30px;
 }
 
-.video-text h1{  /* for most popular tutorials text*/
+.video-text h1 { /* For most popular tutorials text */
     color: black;
     font-size: 32px;
     font-weight: 300;
     padding: 70px;
 }
+
 .video-text span {
     color: #c271ff;
     font-weight: 600;
-
 }
 
-/*videos sections*/
-.vd-block {
+/* Videos sections */
+
+.vd-block { /* Video image container */
     display: flex;
-    justify-content: center;
-    text-align: left;
-    gap: 30px;
+    flex-direction: row; /* Arrange items in a row */
+    justify-content: center; /* Distribute space between items */
+    flex-wrap: nowrap; /* Do not wrap items to the next line */
+    gap: 30px; /* Space between items */
+    overflow-x: auto; /* Allow horizontal scrolling if items overflow */
+    padding: 0 15px; /* Optional padding */
     
 }
 
 .vd {
-    max-width: 255px;
+    flex: 0 0 auto; /* Prevent flex items from shrinking or growing */
+    width: 255px; /* Fixed width for video block */
+}
+
+.vd img {
+    width: 100%; /* Ensure the images fit the block */
 }
 
 .vd h2 {
@@ -139,7 +146,6 @@ h2 {
     margin: 15px 0;
     padding: 0px;
     color: black;
-    display: flex;
 }
 
 .vd p {
@@ -182,3 +188,8 @@ h2 {
 .vd-rat p {
     color: #c271ff;
 }
+
+/* Membership section */
+
+
+
