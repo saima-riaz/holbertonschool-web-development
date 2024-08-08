@@ -336,9 +336,32 @@ section:nth-child(5) .block .row div p {
     font-size: 1.5em;
     margin-bottom: 10px;
     margin-right: 45%;
-    
+}
+/* Footer */
+footer {
+    background-color: #071629;
+    color: white;
+}
 
+footer .block {
+    display: flex;
+    justify-content: space-around;
+    padding: 90px 0;
+    text-align: center;
+}
 
-    
-    
+footer .block div:nth-child(2) {
+    display: flex;
+}
+
+footer .block div:nth-child(2) a {
+    margin: 0 10px;
+}
+
+footer p {
+    text-align: center;
+    color: white;
+    font-size: 12px;
+    font-weight: 400;
+    padding-bottom: 40px;
 }
